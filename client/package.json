@@ -1,0 +1,78 @@
+{
+  "name": "some-test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://set1one.github.io/test/",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@hookform/resolvers": "^2.9.11",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.16",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@wcj/generate-password": "^1.0.3",
+    "classnames": "^2.3.2",
+    "crypto-browserify": "^3.12.0",
+    "generate-password": "^1.7.0",
+    "gh-pages": "^5.0.0",
+    "imask": "^6.4.3",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.6",
+    "react-imask": "^6.4.3",
+    "react-loader-spinner": "^5.3.4",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-switch": "^7.0.0",
+    "sass": "^1.59.3",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "websocket": "^1.0.34",
+    "yup": "^1.0.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "@types/react-toggle": "^4.0.3",
+    "@types/websocket": "^1.0.5",
+    "file-loader": "^6.2.0"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
+  }
+}
