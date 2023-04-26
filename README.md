@@ -10,6 +10,7 @@ v19.6.0
   cd client && npm i
   cd ..
   cd server && npm i
+  cd ..
 ```
 
 2. run docker:
@@ -17,3 +18,4 @@ v19.6.0
 ```
   docker-compose up --build
 ```
+3. open `http://localhost:3000/`
